@@ -1,0 +1,25 @@
+{
+    "name": "heshu",
+    "version": "1.0.0",
+    "description": "此版本是依据《仙鹤大叔张文鹤》公众号 20201101 ‘灯火阑珊’整理版",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs -d html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tdouguo/heshu.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tdouguo/heshu/issues"
+    },
+    "homepage": "https://github.com/tdouguo/heshu#readme",
+    "devDependencies": {
+        "vuepress": "^1.8.2",
+        "vuepress-plugin-fulltext-search": "^2.2.1"
+    }
+}
